@@ -7,8 +7,8 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 
 # creating path to data files
-folder_path = r'C:\Users\piotr\PycharmProjects\nasze'
-file_type = r'\*csv'
+folder_path = '/home/piotrmichna/lesko/poziomy'
+file_type = '/*csv'
 files = glob.glob(folder_path + file_type)
 
 # creating data variables
